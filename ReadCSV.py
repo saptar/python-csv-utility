@@ -15,7 +15,7 @@ config.read('config.ini')
 ## Instruments filter
 filterInstrument= config['CSV-FILTER']['INSTRUMENTS']
 filterDateTime = int(config['CSV-FILTER']['EXPIRY-DATE-DELTA'])
-filepath1 = "testData/fo13APR2018bhav.csv";
+filepath1 = "testData/fo13APR2018bhav.csv"
 filepath2 = "testData/fo12APR2018bhav.csv"
 tempDict1 = {}
 tempDict2 = {}
